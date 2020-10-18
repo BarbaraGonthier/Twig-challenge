@@ -2,6 +2,7 @@
 
 {% block title %} Index {% endblock %}
 
+{% block content %}
 {% for product in products %}
 <div class="row">
   <div class="col-sm-4">
@@ -12,3 +13,4 @@
     </div>
   </div>
 {%  endfor %}
+{% end block %}
