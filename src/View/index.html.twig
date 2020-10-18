@@ -1,8 +1,8 @@
-{% extends base.html.twig' %}
+{% extends "base.html.twig" %}
 
 {% block title %} Index {% endblock %}
 
-{% foreach ($products ad $product) %}
+{% for product in products %}
 <div class="row">
   <div class="col-sm-4">
     <div class="card">
@@ -11,4 +11,4 @@
       </div>
     </div>
   </div>
-{%  endforeach %}
+{%  endfor %}
