@@ -1,0 +1,12 @@
+{
+    "name": "wilder/twig-challenge",
+    "authors": [
+        {
+            "name": "Barbara Gonthier",
+            "email": "barbara.gonthier@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
